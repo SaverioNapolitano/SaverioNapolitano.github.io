@@ -152,15 +152,15 @@ title: Home
         <a class="project-link" href="https://github.com/MrBigSlime/Stem-Searcher" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="project-card reveal">
-        <h3>diagram</h3>
-        <p>Jupyter Notebook exploration and experiments.</p>
-        <span class="tag">Jupyter</span>
+        <h3>D.I.A.G.R.A.M.</h3>
+        <p>Computer-vision pipeline that turns photos of hand-drawn diagrams into editable digital versions — detects nodes and arrows, then generates D2 / Mermaid markup that renders back to clean graphics.</p>
+        <span class="tag">Python · PyTorch</span>
         <a class="project-link" href="https://github.com/nricciardi/diagram" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="project-card reveal">
         <h3>expirationdate</h3>
-        <p>A front-end project focused on layout and styling.</p>
-        <span class="tag">CSS</span>
+        <p>JavaFX desktop app for managing food at home — pantry, shopping list, and recipes backed by a MySQL database, with calendar reminders when products near their expiry date.</p>
+        <span class="tag">Java · JavaFX</span>
         <a class="project-link" href="https://github.com/SaverioNapolitano/expirationdate" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="project-card reveal">
