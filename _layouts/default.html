@@ -16,6 +16,7 @@
   <!-- Set theme before paint to avoid flash -->
   <script>
     (function () {
+      document.documentElement.classList.add('js');
       try {
         var saved = localStorage.getItem('theme');
         var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
@@ -74,13 +75,18 @@
         try { localStorage.setItem('theme', next); } catch (e) {}
       });
 
-      // Reveal-on-scroll
+      // Reveal-on-scroll (progressive enhancement; content is visible without JS)
+      var els = document.querySelectorAll('.reveal');
+      if (!('IntersectionObserver' in window)) {
+        els.forEach(function (el) { el.classList.add('in'); });
+        return;
+      }
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (e) {
           if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
         });
       }, { threshold: 0.12 });
-      document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
+      els.forEach(function (el) { io.observe(el); });
     })();
   </script>
 </body>
