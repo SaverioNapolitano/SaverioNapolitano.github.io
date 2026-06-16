@@ -124,7 +124,7 @@ title: Home
     <div class="skill-grid">
       <div class="skill-card reveal">
         <h3>Machine Learning</h3>
-        <ul><li>PyTorch</li><li>Diffusers</li><li>HuggingFace</li><li>Scikit-Learn</li><li>OpenCV</li></ul>
+        <ul><li>PyTorch</li><li>Transformers</li><li>PEFT</li><li>Diffusers</li><li>HuggingFace</li><li>Scikit-Learn</li><li>OpenCV</li></ul>
       </div>
       <div class="skill-card reveal">
         <h3>Languages</h3>
