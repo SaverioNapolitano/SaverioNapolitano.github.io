@@ -9,8 +9,9 @@ title: Home
       <p class="eyebrow">AI Engineering · Modena &amp; Sundsvall</p>
       <h1>Saverio Napolitano</h1>
       <p class="lead">
-        Artificial Intelligence Engineering MSc student building and evaluating
-        generative models — diffusion, fine-tuning, and applied deep learning.
+        Artificial Intelligence Engineering MSc student working across the
+        breadth of AI — computer vision, language models, and applied AI from
+        medicine to industrial settings.
       </p>
       <div class="cta-row">
         <a class="btn btn-primary" href="https://github.com/SaverioNapolitano" target="_blank" rel="noopener">View GitHub</a>
@@ -29,12 +30,12 @@ title: Home
       <img src="https://avatars.githubusercontent.com/u/102794183?v=4" alt="Saverio Napolitano" width="88" height="88" loading="lazy">
       <p class="card-label">Currently</p>
       <p class="card-text">
-        ML intern at Deep Vision Consulting, prototyping state-of-the-art
-        generative pipelines.
+        MSc student exploring AI broadly — vision, language, and real-world
+        applications — with a growing pull toward research.
       </p>
       <dl class="card-facts">
         <div><dt>Based in</dt><dd>Carpi, Italy</dd></div>
-        <div><dt>Focus</dt><dd>Generative AI</dd></div>
+        <div><dt>Focus</dt><dd>Vision · Language · Applied AI</dd></div>
         <div><dt>Languages</dt><dd>IT (native) · EN (C1)</dd></div>
       </dl>
     </aside>
@@ -50,10 +51,11 @@ title: Home
     <div class="about-grid">
       <p class="about-lead reveal">
         I'm a Master's student in Artificial Intelligence Engineering at the
-        University of Modena and Reggio Emilia (Unimore). I recently completed an
-        Erasmus+ semester at Mid Sweden University in Sundsvall, and I currently
-        work on generative-model prototyping. I like turning recent research into
-        pipelines that actually run.
+        University of Modena and Reggio Emilia (Unimore), recently back from an
+        Erasmus+ semester at Mid Sweden University in Sundsvall. My interests run
+        across the whole field — computer vision, large language models, and
+        applied AI in domains like medicine and industry. I like turning recent
+        research into systems that actually run.
       </p>
       <div class="stat-row reveal">
         <div class="stat"><span class="stat-num">108<span>/110</span></span><span class="stat-label">BSc Computer Engineering</span></div>
@@ -78,9 +80,9 @@ title: Home
           <h3>Machine Learning Intern</h3>
           <p class="timeline-org">Deep Vision Consulting — Modena, Italy</p>
           <p>
-            Evaluating and prototyping state-of-the-art generative models.
-            Fine-tuning diffusion models with LoRA and T2I adapters, building
-            ComfyUI workflows for rapid prototyping, and integrating
+            Evaluated and prototyped state-of-the-art generative models.
+            Fine-tuned diffusion models with LoRA and T2I adapters, built
+            ComfyUI workflows for rapid prototyping, and integrated
             HuggingFace / Diffusers into custom pipelines.
           </p>
         </div>
