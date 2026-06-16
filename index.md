@@ -27,7 +27,7 @@ title: Home
     </div>
 
     <aside class="hero-card reveal">
-      <img src="https://avatars.githubusercontent.com/u/102794183?v=4" alt="Saverio Napolitano" width="88" height="88" loading="lazy">
+      <img src="{{ '/assets/pic.jpeg' | relative_url }}" alt="Saverio Napolitano" width="88" height="88" loading="lazy">
       <p class="card-label">Currently</p>
       <p class="card-text">
         MSc student exploring AI broadly — vision, language, and real-world
