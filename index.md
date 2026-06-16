@@ -77,7 +77,7 @@ title: Home
       <li class="timeline-item reveal">
         <div class="timeline-period">Feb 2026 – May 2026</div>
         <div class="timeline-body">
-          <h3>Machine Learning Intern</h3>
+          <h3>Machine Learning &amp; Computer Vision Intern</h3>
           <p class="timeline-org">Deep Vision Consulting — Modena, Italy</p>
           <p>
             Evaluated and prototyped state-of-the-art generative models.
