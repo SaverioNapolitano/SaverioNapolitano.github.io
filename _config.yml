@@ -1,3 +1,51 @@
-theme: minima
+# Site
 title: Saverio Napolitano
-description: Artificial Intelligence Engineering student at University of Modena and Reggio Emilia (Unimore), Italy. Exchange student at Mid Sweden University (MIUN).
+tagline: AI Engineering
+description: >-
+  Artificial Intelligence Engineering MSc student at the University of Modena
+  and Reggio Emilia (Unimore). Erasmus+ exchange at Mid Sweden University.
+  Working on generative models, diffusion, and applied deep learning.
+url: "https://saverionapolitano.github.io"
+baseurl: ""
+lang: en
+
+# Author
+author:
+  name: Saverio Napolitano
+  github: SaverioNapolitano
+  email: saverio.napolitano@outlook.com
+
+# Build
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+
+defaults:
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
+  - scope: { path: "" }
+    values: { layout: "default" }
+
+# Navigation (rendered in the header)
+nav:
+  - name: About
+    url: "/#about"
+  - name: Experience
+    url: "/#experience"
+  - name: Projects
+    url: "/#projects"
+  - name: Blog
+    url: "/blog/"
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github

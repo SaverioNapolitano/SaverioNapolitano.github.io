@@ -3,103 +3,183 @@ layout: default
 title: Home
 ---
 
-<div class="home-shell">
-  <section class="hero">
-    <div class="reveal">
-      <p class="eyebrow">AI Engineering · Exchange Student</p>
+<section class="hero">
+  <div class="wrapper hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">AI Engineering · Modena &amp; Sundsvall</p>
       <h1>Saverio Napolitano</h1>
       <p class="lead">
-        Artificial Intelligence Engineering student at University of Modena and Reggio Emilia (Unimore), Italy. Exchange student at Mid Sweden University (MIUN).
+        Artificial Intelligence Engineering MSc student building and evaluating
+        generative models — diffusion, fine-tuning, and applied deep learning.
       </p>
       <div class="cta-row">
-        <a class="button primary" href="https://github.com/SaverioNapolitano">GitHub Profile</a>
-        <a class="button ghost" href="#projects">Featured Projects</a>
+        <a class="btn btn-primary" href="https://github.com/SaverioNapolitano" target="_blank" rel="noopener">View GitHub</a>
+        <a class="btn btn-ghost" href="#projects">See projects</a>
       </div>
-      <div class="meta-chips">
-        <span>Unimore</span>
-        <span>MIUN</span>
-        <span>Italy + Sweden</span>
-        <span>AI Engineering</span>
-      </div>
+      <ul class="chips">
+        <li>PyTorch</li>
+        <li>Diffusers</li>
+        <li>HuggingFace</li>
+        <li>OpenCV</li>
+        <li>Python · C++ · Java</li>
+      </ul>
     </div>
-    <div class="hero-card reveal delay-1">
-      <img src="https://avatars.githubusercontent.com/u/102794183?v=4" alt="Saverio Napolitano portrait">
-      <p class="card-title">Currently</p>
-      <p class="card-copy">
-        Building a portfolio of applied coursework and experiments across Python, Jupyter Notebook, and CSS.
+
+    <aside class="hero-card reveal">
+      <img src="https://avatars.githubusercontent.com/u/102794183?v=4" alt="Saverio Napolitano" width="88" height="88" loading="lazy">
+      <p class="card-label">Currently</p>
+      <p class="card-text">
+        ML intern at Deep Vision Consulting, prototyping state-of-the-art
+        generative pipelines.
       </p>
-      <div class="signature">Saverio</div>
-    </div>
-  </section>
+      <dl class="card-facts">
+        <div><dt>Based in</dt><dd>Carpi, Italy</dd></div>
+        <div><dt>Focus</dt><dd>Generative AI</dd></div>
+        <div><dt>Languages</dt><dd>IT (native) · EN (C1)</dd></div>
+      </dl>
+    </aside>
+  </div>
+</section>
 
-  <section class="reveal delay-2">
-    <h2 class="section-title">Highlights</h2>
-    <p class="section-lead">
-      A focused path through AI engineering, academic exchange, and hands-on projects that bridge research and design.
-    </p>
-    <div class="cards">
-      <article class="card">
-        <h3>Artificial Intelligence Engineering</h3>
-        <p>Grounded in applied AI studies at the University of Modena and Reggio Emilia (Unimore).</p>
-        <span class="tag">Academic Track</span>
-      </article>
-      <article class="card">
-        <h3>Exchange in Sweden</h3>
-        <p>Expanding perspective through Mid Sweden University (MIUN).</p>
-        <span class="tag">International Experience</span>
-      </article>
-      <article class="card">
-        <h3>Hands-on Builds</h3>
-        <p>Coursework and personal explorations spanning Python, Jupyter Notebook, and CSS.</p>
-        <span class="tag">Practical Work</span>
-      </article>
+<section id="about" class="section">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <p class="kicker">About</p>
+      <h2>Bridging research and engineering in applied AI.</h2>
     </div>
-  </section>
+    <div class="about-grid">
+      <p class="about-lead reveal">
+        I'm a Master's student in Artificial Intelligence Engineering at the
+        University of Modena and Reggio Emilia (Unimore). I recently completed an
+        Erasmus+ semester at Mid Sweden University in Sundsvall, and I currently
+        work on generative-model prototyping. I like turning recent research into
+        pipelines that actually run.
+      </p>
+      <div class="stat-row reveal">
+        <div class="stat"><span class="stat-num">108<span>/110</span></span><span class="stat-label">BSc Computer Engineering</span></div>
+        <div class="stat"><span class="stat-num">C1</span><span class="stat-label">English proficiency</span></div>
+        <div class="stat"><span class="stat-num">2</span><span class="stat-label">Countries studied in</span></div>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <section id="projects" class="reveal delay-3">
-    <h2 class="section-title">Featured Projects</h2>
-    <p class="section-lead">A snapshot of pinned work and collaborations from GitHub.</p>
-    <div class="cards">
-      <article class="card">
-        <h3>diagram</h3>
-        <p>Jupyter Notebook exploration.</p>
-        <span class="tag">Jupyter Notebook</span>
-        <div class="project-links">
-          <a href="https://github.com/nricciardi/diagram">View on GitHub</a>
+<section id="experience" class="section section-alt">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <p class="kicker">Experience &amp; Education</p>
+      <h2>A path across applied AI and international study.</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="timeline-item reveal">
+        <div class="timeline-period">Feb 2026 – May 2026</div>
+        <div class="timeline-body">
+          <h3>Machine Learning Intern</h3>
+          <p class="timeline-org">Deep Vision Consulting — Modena, Italy</p>
+          <p>
+            Evaluating and prototyping state-of-the-art generative models.
+            Fine-tuning diffusion models with LoRA and T2I adapters, building
+            ComfyUI workflows for rapid prototyping, and integrating
+            HuggingFace / Diffusers into custom pipelines.
+          </p>
         </div>
-      </article>
-      <article class="card">
-        <h3>expirationdate</h3>
-        <p>CSS project.</p>
-        <span class="tag">CSS</span>
-        <div class="project-links">
-          <a href="https://github.com/SaverioNapolitano/expirationdate">View on GitHub</a>
+      </li>
+      <li class="timeline-item reveal">
+        <div class="timeline-period">2024 – present</div>
+        <div class="timeline-body">
+          <h3>MSc, Artificial Intelligence Engineering</h3>
+          <p class="timeline-org">University of Modena and Reggio Emilia (Unimore)</p>
+          <p>Second-cycle degree in Computer Engineering, AI track.</p>
         </div>
-      </article>
-      <article class="card">
+      </li>
+      <li class="timeline-item reveal">
+        <div class="timeline-period">Sep 2025 – Jan 2026</div>
+        <div class="timeline-body">
+          <h3>Erasmus+ Exchange Semester</h3>
+          <p class="timeline-org">Mid Sweden University (MIUN) — Sundsvall, Sweden</p>
+          <p>One semester abroad through the Erasmus+ mobility program.</p>
+        </div>
+      </li>
+      <li class="timeline-item reveal">
+        <div class="timeline-period">2021 – 2024</div>
+        <div class="timeline-body">
+          <h3>BSc, Computer Engineering</h3>
+          <p class="timeline-org">University of Modena and Reggio Emilia (Unimore)</p>
+          <p>Final mark 108/110.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <p class="kicker">Toolkit</p>
+      <h2>What I build with.</h2>
+    </div>
+    <div class="skill-grid">
+      <div class="skill-card reveal">
+        <h3>Machine Learning</h3>
+        <ul><li>PyTorch</li><li>Diffusers</li><li>HuggingFace</li><li>Scikit-Learn</li><li>OpenCV</li></ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3>Languages</h3>
+        <ul><li>Python</li><li>C / C++</li><li>Java</li><li>SQL</li><li>Unix shell</li></ul>
+      </div>
+      <div class="skill-card reveal">
+        <h3>Data &amp; Tooling</h3>
+        <ul><li>NumPy &amp; Pandas</li><li>Matplotlib &amp; Seaborn</li><li>Git</li><li>ComfyUI</li><li>Jupyter</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section section-alt">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <p class="kicker">Projects</p>
+      <h2>Selected work.</h2>
+    </div>
+    <div class="project-grid">
+      <article class="project-card reveal">
         <h3>Stem-Searcher</h3>
-        <p>Group project for the university course of "Gestione dell'informazione".</p>
+        <p>Information-retrieval project for the "Gestione dell'informazione" course.</p>
         <span class="tag">Python</span>
-        <div class="project-links">
-          <a href="https://github.com/MrBigSlime/Stem-Searcher">View on GitHub</a>
-        </div>
+        <a class="project-link" href="https://github.com/MrBigSlime/Stem-Searcher" target="_blank" rel="noopener">View on GitHub</a>
       </article>
-      <article class="card">
+      <article class="project-card reveal">
+        <h3>diagram</h3>
+        <p>Jupyter Notebook exploration and experiments.</p>
+        <span class="tag">Jupyter</span>
+        <a class="project-link" href="https://github.com/nricciardi/diagram" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project-card reveal">
+        <h3>expirationdate</h3>
+        <p>A front-end project focused on layout and styling.</p>
+        <span class="tag">CSS</span>
+        <a class="project-link" href="https://github.com/SaverioNapolitano/expirationdate" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project-card reveal">
         <h3>STYLEGUIDE</h3>
         <p>Stop Telling Your Lights Everything, Green Up Ideal Daily Environment.</p>
-        <span class="tag">Research + Writing</span>
-        <div class="project-links">
-          <a href="https://github.com/SaverioNapolitano/STYLEGUIDE">View on GitHub</a>
-        </div>
+        <span class="tag">Research</span>
+        <a class="project-link" href="https://github.com/SaverioNapolitano/STYLEGUIDE" target="_blank" rel="noopener">View on GitHub</a>
       </article>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="accent-panel reveal">
-    <h2 class="section-title">Open to collaborations</h2>
-    <p class="section-lead">
-      If you want to talk about AI engineering, coursework projects, or joint experiments, reach out via GitHub.
-    </p>
-    <a class="button primary" href="https://github.com/SaverioNapolitano">Connect on GitHub</a>
-  </section>
-</div>
+<section id="contact" class="section">
+  <div class="wrapper">
+    <div class="cta-panel reveal">
+      <h2>Let's build something.</h2>
+      <p>Open to conversations about generative AI, coursework collaborations, and research experiments.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="mailto:saverio.napolitano@outlook.com">Email me</a>
+        <a class="btn btn-ghost" href="https://github.com/SaverioNapolitano" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>

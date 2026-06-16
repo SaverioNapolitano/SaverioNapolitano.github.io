@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="section">
+  <div class="wrapper prose reveal">
+    <a class="back-link" href="{{ '/blog/' | relative_url }}">&larr; All posts</a>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %-d, %Y' }}</time>
+      {%- if page.tags.size > 0 %} &middot; {{ page.tags | join: ', ' }}{% endif -%}
+    </p>
+    {{ content }}
+  </div>
+</article>
