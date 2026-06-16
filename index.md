@@ -177,7 +177,7 @@ title: Home
   <div class="wrapper">
     <div class="cta-panel reveal">
       <h2>Let's build something.</h2>
-      <p>Open to conversations about generative AI, coursework collaborations, and research experiments.</p>
+      <p>Open to conversations across AI — computer vision, language models, and applied AI — plus coursework collaborations and research experiments.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="mailto:saverio.napolitano@outlook.com">Email me</a>
         <a class="btn btn-ghost" href="https://github.com/SaverioNapolitano" target="_blank" rel="noopener">GitHub</a>
