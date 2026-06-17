@@ -146,6 +146,12 @@ title: Home
     </div>
     <div class="project-grid">
       <article class="project-card reveal">
+        <h3>Counterfactual Generation</h3>
+        <p>Counterfactual generation for representation learning in industrial time-series prognostics — accepted at IRAI 2026.</p>
+        <span class="tag">Python · PyTorch</span>
+        <a class="project-link" href="https://github.com/cigarsai/counterfactual-generation" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project-card reveal">
         <h3>Stem-Searcher</h3>
         <p>Information-retrieval project for the "Gestione dell'informazione" course.</p>
         <span class="tag">Python</span>
