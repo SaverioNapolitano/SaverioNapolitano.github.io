@@ -152,6 +152,12 @@ title: Home
         <a class="project-link" href="https://github.com/cigarsai/counterfactual-generation" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="project-card reveal">
+        <h3>TC-MIL</h3>
+        <p>Depression detection from clinical interview transcripts (DAIC-WOZ) — interviews as bags of dialogue chunks, classified with a frozen sentence encoder and a gated-attention MIL head, with LoRA fine-tuning and cross-validation protocols.</p>
+        <span class="tag">Python · PyTorch</span>
+        <a class="project-link" href="https://github.com/SaverioNapolitano/tcmil" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+      <article class="project-card reveal">
         <h3>Stem-Searcher</h3>
         <p>Information-retrieval project for the "Gestione dell'informazione" course.</p>
         <span class="tag">Python</span>
