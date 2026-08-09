@@ -36,7 +36,7 @@ title: Home
       <dl class="card-facts">
         <div><dt>Based in</dt><dd>Carpi, Italy</dd></div>
         <div><dt>Focus</dt><dd>Vision · Language · Applied AI</dd></div>
-        <div><dt>Languages</dt><dd>IT (native) · EN (C1)</dd></div>
+        <div><dt>Languages</dt><dd>IT (native) · EN (B2)</dd></div>
       </dl>
     </aside>
   </div>
@@ -59,7 +59,7 @@ title: Home
       </p>
       <div class="stat-row reveal">
         <div class="stat"><span class="stat-num">108<span>/110</span></span><span class="stat-label">BSc Computer Engineering</span></div>
-        <div class="stat"><span class="stat-num">C1</span><span class="stat-label">English proficiency</span></div>
+        <div class="stat"><span class="stat-num">B2</span><span class="stat-label">English proficiency</span></div>
         <div class="stat"><span class="stat-num">2</span><span class="stat-label">Countries studied in</span></div>
       </div>
     </div>
@@ -180,6 +180,22 @@ title: Home
         <p>Stop Telling Your Lights Everything, Green Up Ideal Daily Environment.</p>
         <span class="tag">Research</span>
         <a class="project-link" href="https://github.com/SaverioNapolitano/STYLEGUIDE" target="_blank" rel="noopener">View on GitHub</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="service" class="section">
+  <div class="wrapper">
+    <div class="section-head reveal">
+      <p class="kicker">Academic Service</p>
+      <h2>Peer review.</h2>
+    </div>
+    <div class="project-grid">
+      <article class="project-card reveal">
+        <h3>Reviewer</h3>
+        <p>Reviewed 2 papers for the IEEE International Conference on E-Learning in Industrial Electronics (ICELIE) 2026.</p>
+        <span class="tag">Peer review</span>
       </article>
     </div>
   </div>

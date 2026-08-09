@@ -39,6 +39,8 @@ nav:
     url: "/#experience"
   - name: Projects
     url: "/#projects"
+  - name: Service
+    url: "/#service"
   - name: Blog
     url: "/blog/"
 
