@@ -159,13 +159,13 @@ title: Home
       </article>
       <article class="project-card reveal">
         <h3>Stem-Searcher</h3>
-        <p>Information-retrieval project for the "Gestione dell'informazione" course.</p>
+        <p>Information-retrieval search engine for Steam games.</p>
         <span class="tag">Python</span>
         <a class="project-link" href="https://github.com/MrBigSlime/Stem-Searcher" target="_blank" rel="noopener">View on GitHub</a>
       </article>
       <article class="project-card reveal">
-        <h3>D.I.A.G.R.A.M.</h3>
-        <p>Computer-vision pipeline that turns photos of hand-drawn diagrams into editable digital versions — detects nodes and arrows, then generates D2 / Mermaid markup that renders back to clean graphics.</p>
+        <h3>D.R.A.F.T.</h3>
+        <p>Computer-vision pipeline that turns photos of hand-drawn diagrams into editable digital versions — detects nodes and arrows, then generates D2 / Mermaid markup that renders back to clean graphics. Accepted at ICELIE 2026.</p>
         <span class="tag">Python · PyTorch</span>
         <a class="project-link" href="https://github.com/nricciardi/diagram" target="_blank" rel="noopener">View on GitHub</a>
       </article>
