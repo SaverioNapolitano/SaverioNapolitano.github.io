@@ -9,7 +9,7 @@ title: Home
       <p class="eyebrow">AI Engineering · Modena &amp; Sundsvall</p>
       <h1>Saverio Napolitano</h1>
       <p class="lead">
-        Artificial Intelligence Engineering MSc student working across the
+        Artificial Intelligence Engineering MSc graduate working across the
         breadth of AI — computer vision, language models, and applied AI from
         medicine to industrial settings.
       </p>
@@ -30,7 +30,7 @@ title: Home
       <img src="{{ '/assets/pic.jpeg' | relative_url }}" alt="Saverio Napolitano" width="88" height="88" loading="lazy">
       <p class="card-label">Currently</p>
       <p class="card-text">
-        MSc student exploring AI broadly — vision, language, and real-world
+        MSc graduate (110/110 cum laude) exploring AI broadly — vision, language, and real-world
         applications — with a growing pull toward research.
       </p>
       <dl class="card-facts">
@@ -50,14 +50,16 @@ title: Home
     </div>
     <div class="about-grid">
       <p class="about-lead reveal">
-        I'm a Master's student in Artificial Intelligence Engineering at the
-        University of Modena and Reggio Emilia (Unimore), recently back from an
-        Erasmus+ semester at Mid Sweden University in Sundsvall. My interests run
+        I hold a Master's degree in Artificial Intelligence Engineering from the
+        University of Modena and Reggio Emilia (Unimore), completed with a final
+        mark of 110/110 cum laude, including an Erasmus+ semester at Mid Sweden
+        University in Sundsvall. My interests run
         across the whole field — computer vision, large language models, and
         applied AI in domains like medicine and industry. I like turning recent
         research into systems that actually run.
       </p>
       <div class="stat-row reveal">
+        <div class="stat"><span class="stat-num">110<span>/110 cum laude</span></span><span class="stat-label">MSc Artificial Intelligence Engineering</span></div>
         <div class="stat"><span class="stat-num">108<span>/110</span></span><span class="stat-label">BSc Computer Engineering</span></div>
         <div class="stat"><span class="stat-num">C1</span><span class="stat-label">English proficiency</span></div>
         <div class="stat"><span class="stat-num">2</span><span class="stat-label">Countries studied in</span></div>
@@ -88,11 +90,11 @@ title: Home
         </div>
       </li>
       <li class="timeline-item reveal">
-        <div class="timeline-period">2024 – present</div>
+        <div class="timeline-period">2024 – 2026</div>
         <div class="timeline-body">
           <h3>MSc, Artificial Intelligence Engineering</h3>
           <p class="timeline-org">University of Modena and Reggio Emilia (Unimore)</p>
-          <p>Second-cycle degree in Computer Engineering, AI track.</p>
+          <p>Second-cycle degree in Computer Engineering, AI track. Final mark 110/110 cum laude.</p>
         </div>
       </li>
       <li class="timeline-item reveal">
@@ -165,7 +167,7 @@ title: Home
       </article>
       <article class="project-card reveal">
         <h3>D.R.A.F.T.</h3>
-        <p>Computer-vision pipeline that turns photos of hand-drawn diagrams into editable digital versions — detects nodes and arrows, then generates D2 / Mermaid markup that renders back to clean graphics. Accepted at ICELIE 2026.</p>
+        <p>Computer-vision pipeline that turns photos of hand-drawn diagrams into editable digital versions — detects nodes and arrows, then generates D2 / Mermaid markup that renders back to clean graphics.</p>
         <span class="tag">Python · PyTorch</span>
         <a class="project-link" href="https://github.com/nricciardi/diagram" target="_blank" rel="noopener">View on GitHub</a>
       </article>
